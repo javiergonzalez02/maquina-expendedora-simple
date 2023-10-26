@@ -24,11 +24,8 @@ public class  MaquinaExpendedoraSimple {
         estacionDestino = "Madrid";
     }
     
-<<<<<<< HEAD
+
     public MaquinaExpendedoraSimple(int precioDelBillete, String destino) {
-=======
-    public MaquinaExpendedoraSimple(int precioDelBillete, String origen, String destino) {
->>>>>>> ef2410923d76f165cd022bb9e6dc233e5ab33703
         precioBillete = precioDelBillete;
         estacionOrigen = "León";
         estacionDestino = destino;
