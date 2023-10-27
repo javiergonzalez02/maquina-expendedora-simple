@@ -23,7 +23,6 @@ public class  MaquinaExpendedoraSimple {
         estacionOrigen = "León";
         estacionDestino = "Madrid";
     }
-    
 
     public MaquinaExpendedoraSimple(int precioDelBillete, String destino) {
         precioBillete = precioDelBillete;
@@ -31,6 +30,10 @@ public class  MaquinaExpendedoraSimple {
         estacionDestino = destino;
     }
 
+    public void setPrecioBillete(int nuevoPrecioDelBillete){
+        precioBillete = nuevoPrecioDelBillete;
+    }
+    
     /**
      * Devuelve el precio del billete
      */
